@@ -8,7 +8,7 @@ const GraphicDesign = () => {
       <hr className='w-[60%] text-white margin-2' />
       <div className='w-[100%] min-h-[100%] padding-1 columns-5 design'>
         {Designes.map((design) => (
-          <img src={design.image} alt="" />
+          <img src={design.image} alt="images" />
         ))}
       </div>
     </div>

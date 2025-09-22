@@ -46,7 +46,7 @@ const EbookDownload = () => {
             <div className="w-[80%] h-[100%] flex flex-col justify-center items-center">
               <h2 className='font-[Righteous] font-bold text-[25px] text-theme margin-bottom-1 books-title'>{book.name}</h2>
               <div className="w-[100%] flex flex-col justify-center items-center">
-                <img className='w-[210px] h-[280px] object-fill rounded-[20px]  margin-1' src={book.image} alt="" />
+                <img className='w-[210px] h-[280px] object-fill rounded-[20px]  margin-1' src={book.image} alt="book-cover" />
                 <div className="w-[60%] flex flex-col justify-center items-start">
                   <p className='font-[Righteous] font-bold text-white text-[16px] margin-0'>Name: {book.name}</p>
                   <p className='font-[Righteous] font-bold text-white text-[16px] margin-0'>Category: {book.Category}</p>

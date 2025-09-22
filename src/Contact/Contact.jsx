@@ -70,11 +70,11 @@ const Contact = () => {
         <div className="w-[100%] h-[20%] flex flex-row justify-around padding-2 border border-white rounded-[10px] margin-1 shadow-box">
           <div className="w-[50%] text-center border-r-2 border-white flex flex-row justify-center items-center gap-1.5">
             <FaPhoneAlt />
-            <h2 className='font-[Righteous] font-bold text-[14px] text-white'>Phone: <span className='font-normal text-[14px] text-white'>123456789</span></h2>
+            <h2 className='font-[Righteous] font-bold text-[14px] text-white'>Phone: <span className='font-normal text-[14px] text-white'>+92 319 1084949</span></h2>
           </div>
           <div className="w-[50%] text-center flex flex-row justify-center items-center gap-1.5">
             <MdEmail />
-            <h2 className='font-[Righteous] font-bold text-[14px] text-white'>Gmail: <span className='font-normal text-[14px] text-white'>dev@gmail.com</span></h2>
+            <h2 className='font-[Righteous] font-bold text-[14px] text-white'>Gmail: <span className='font-normal text-[14px] text-white'>aaliyandev786@gmail.com</span></h2>
           </div>
         </div>
         <div className="w-[100%] h-[20%] flex flex-row justify-around padding-2 border border-white rounded-[10px] shadow-box">
