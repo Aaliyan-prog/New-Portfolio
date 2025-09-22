@@ -1,0 +1,291 @@
+@import "tailwindcss";
+
+/* :root {
+  --color-theme: #9e0bdd;
+} */
+
+@theme{
+  --color-theme: #9e0bdd;
+  --color-try: #F5E6FF;
+  --color-theme-name: var(--color-theme);
+  --color-light: #1E1E2E;
+  --breakpoint-xs: 30rem;
+
+  /* font */
+  --font-pacifico: "Pacifico", cursive;
+  --font-righteous: "Righteous", sans-serif;
+  --font-libertinus: "Libertinus Serif Display", sans-serif;
+  --font-lobster: "Lobster Two", sans-serif;
+
+  /* shadow */
+  --shadow-project: 0 0 40px rgba(158, 11, 221, 1);
+}
+
+.navbar-sidebar-options-bar{
+  @apply flex sm:flex-col sm:justify-start sm:items-center sm:w-[60%] sm:h-[100vh] sm:p-[30px] sm:absolute sm:top-0 sm:right-0 sm:bg-[var(--color-try)] sm:translate-x-0 sm:transition-transform duration-1000 xs:flex-col xs:justify-start xs:items-center xs:w-[60%] xs:h-[100vh] xs:p-[30px] xs:absolute xs:top-0 xs:right-0 xs:bg-[var(--color-try)] xs:translate-x-0 xs:transition-transform xs:duration-1000
+}
+
+.project-container{
+  @apply md:min-h-[100vh] md:mt-10 sm:w-[100%] sm:min-h-[100vh] sm:mt-10
+}
+
+.close-navbar-sidebar-options{
+  @apply sm:transition sm:duration-1000 sm:translate-x-full xs:transition xs:duration-1000 xs:translate-x-full
+}
+
+.navbar-link {
+  @apply flex justify-center items-center text-[14px] w-[100%] h-[100%] lg:text-white md:text-white font-[righteous] transition duration-1000 rounded-[999px] sm:text-black xs:text-black;
+}
+
+.barIcon{
+  @apply text-[22px] text-white
+}
+
+.cancelIcon{
+  @apply sm:text-2xl sm:text-black self-start sm:mb-[50px] xs:text-[22px] xs:mb-[30px] xs:text-black
+}
+
+.navbar-list {
+  @apply lg:mb-0 md:mb-0 list-none lg:w-[100px] lg:h-[40px] sm:mb-[20px] sm:w-[300px] sm:h-[45px] xs:mb-[20px] xs:w-[250px] xs:h-[40px];
+}
+
+.margin-0{
+  @apply mb-[5px]
+}
+
+.margin{
+  @apply mb-[10px]
+}
+
+.margin-1{
+  @apply mb-[20px]
+}
+
+.margin-2{
+  @apply mb-[50px]
+}
+
+.margin-bottom{
+  @apply mb-[0px]
+}
+
+.margin-bottom-1{
+  @apply mb-[10px]
+}
+
+.margin-top {
+  @apply my-[10px]
+}
+
+.margin-top-1 {
+  @apply my-[20px]
+}
+
+.padding{
+  @apply pl-5 pr-5
+}
+
+.padding-1{
+  @apply p-[10px]
+}
+
+.padding-2{
+  @apply p-[20px]
+}
+
+.padding-3{
+  @apply p-[30px]
+}
+
+.home{
+  background-color: #9e0bdd;
+}
+
+.project{
+  background-color: #9e0bdd;
+}
+
+.resume{
+  background-color: #9e0bdd;
+}
+
+.contact{
+  background-color: #9e0bdd;
+}
+
+.custom-shape-divider-bottom-1756571235 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1756571235 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 160px;
+}
+
+.custom-shape-divider-bottom-1756571235 .shape-fill {
+  fill: #9E0BDD;
+}
+
+.project-navbar-options{
+  @apply w-[22%] h-[40px] flex justify-center items-center lg:text-[16px] md:text-[15px] font-bold font-libertinus text-white border border-white rounded-[10px] cursor-pointer transition duration-1000 sm:text-[13px] xs:text-[11px]
+}
+
+.project-navbar-options:hover{
+  @apply border-none bg-theme
+}
+
+.Explore-All{
+  @apply lg:text-[15px] md:text-[15px] sm:text-[14px] xs:text-[12px]
+}
+
+.my-heading{
+  @apply lg:text-[38px] md:text-[35px] sm:text-[30px] xs:text-[30px]
+}
+
+.shadow-box:hover{
+  @apply shadow-project transition duration-1000
+}
+
+/* .projects{
+  @apply cursor-pointer
+}
+
+.projects:hover{
+  @apply w-[310px] h-[385px] 
+} */
+
+.tags{
+  @apply flex justify-center items-center lg:text-[12px] font-libertinus text-white font-bold lg:min-w-[70px] lg:h-[30px] md:h-[30px] sm:h-[25px] border border-white rounded-[999px] mb-2 pl-1 pr-1 md:min-w-[65px] sm:min-w-[60px] md:text-[12px] sm:text-[10px] xs:min-w-[40px] xs:h-[20px] xs:text-[8px]
+}
+
+.tags-container{
+  @apply mt-[10px] mb-0
+}
+
+.projects-button{
+  @apply w-[100%] lg:h-[40px] md:h-[40px] flex justify-center items-center border border-white text-[14px] font-libertinus font-bold text-white rounded-[10px] sm:h-[30px] xs:h-[30px]
+}
+
+.project-button-margin{
+  @apply lg:mt-[15px] md:mt-[15px] mb-0 sm:mt-3 xs:mt-1
+}
+
+.svg-margin{
+  @apply ml-2
+}
+
+.skill{
+  @apply grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 xs:grid-cols-1 lg:flex-wrap md:flex-wrap sm:flex-wrap xs:flex-wrap
+}
+
+.resume-margin{
+  @apply mb-[15px] p-[20px]
+}
+
+.src-project{
+  @apply lg:min-w-[300px] lg:min-h-[300px] md:min-w-[300px] md:min-h-[300px] sm:max-w-[250px] sm:min-h-[280px] xs:max-w-[190px] xs:min-h-[200px] mr-1 sm:mr-1 xs:mr-1
+}
+
+.src-project-title-container{
+  @apply lg:min-h-[120px] md:min-h-[120px] sm:min-h-[120px] xs:max-h-[60px]
+}
+
+.src-project-title{
+  @apply lg:text-[16px] md:text-[16px] sm:text-[14px] xs:text-[13px]
+}
+
+.desc{
+  @apply lg:text-[15px] md:text-[13px] sm:text-[12px] xs:text-[10px]
+}
+
+.src-project-content{
+  @apply lg:p-[20px] md:p-[20px] xs:p-2
+}
+
+.src-skill-resume{
+  @apply xl:w-[300px] lg:w-[275px] md:w-[300px] sm:w-[220px] lg:mr-2 md:mr-2 sm:mr-2 xs:mr-2
+}
+
+.src-skill-title{
+  @apply lg:text-[20px] md:text-[20px] sm:text-[16px]
+}
+
+.src-skill-experience{
+  @apply lg:text-[18px] md:text-[17px] sm:text-[16px]
+}
+
+.src-form-container{
+  @apply flex lg:flex-row md:flex-col sm:flex-col sm:flex-wrap  xs:flex-col xs:flex-wrap
+}
+
+.src-form{
+  @apply lg:w-[40%] md:w-[70%] md:mb-5 sm:w-[90%] sm:mb-5 xs:w-[80%] xs:mb-5
+}
+
+.src-contact-content{
+  @apply lg:w-[40%] md:w-[70%] md:mb-8 sm:w-[80%] sm:mb-8 xs:w-[80%] xs:mb-8
+}
+
+.src-hero-title{
+  @apply lg:text-[16px] md:text-[16px] sm:text-[14px] xs:text-[13px]
+}
+
+.src-hero-heading{
+  @apply lg:text-6xl md:text-[50px] sm:text-[50px] xs:text-[50px]
+}
+
+.src-hero-desc{
+  @apply lg:w-[600px] md:w-[600px] sm:w-[500px] xs:w-[480px]
+}
+
+.skill-margin-top {
+  @apply lg:my-[10px] md:my-[10px] sm:my-[5px] xs:my-[5px]
+}
+
+.margin-input {
+  @apply lg:mb-[5px] md:mb-[5px] sm:mb-[3px] xs:mb-[3px]
+}
+
+.project-page-project{
+  @apply lg:w-[280px] md:w-[300px] sm:w-[270px] xs:w-[300px] mr-2
+}
+
+.email-margin{
+  @apply mr-4
+}
+
+.email-margin-top{
+  @apply mt-7
+}
+
+.email-writing{
+  @apply lg:text-[14px] md:text-[13px] sm:text-[12px] xs:text-[12px]
+}
+
+.email-container{
+  @apply lg:w-[60%] md:w-[70%] sm:w-[80%] xs:w-[80%]
+}
+
+.book-container{
+  @apply lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1
+}
+
+.books-title{
+  @apply lg:text-[28px] md:text-[40px] sm:text-[30px] xs:text-[25px]
+}
+
+.design{
+  @apply xl:columns-6 lg:columns-5 md:columns-4 sm:columns-2 xs:columns-1
+}
+
+/* .resume-margin:hover{
+  @apply w-[260px] h-[160px]
+} */
