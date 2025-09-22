@@ -2,15 +2,15 @@ import React, { useContext, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { MdCancel } from "react-icons/md";
 import { FaBars } from "react-icons/fa";
-import { navbarContext } from '../../Context/NavContext';
+import { NavbarContext } from '../../Context/NavContext.jsx';
 // import "../assets/Responsive/midPhoneResponsive.css"
 
 const Navbar = () => {
-  const { active, HandleActive, sidebar, setSidebar } = useContext(navbarContext);
+  const { active, HandleActive, sidebar, setSidebar } = useContext(NavbarContext);
 
 
   return (
-    <div className='flex justify-around items-center flex-row w-[100%] h-[80px]'>
+    <div className='flex justify-around items-center flex-row w-[100%] h-[80px] bg-background navbar'>
       <div>
         <h1 className='text-[28px] text-white font-[pacifico]'>aaliyan</h1>
       </div>
@@ -53,7 +53,7 @@ const Navbar = () => {
             className={`${sidebar === true ? "navbar-sidebar-options-bar" : "close-navbar-sidebar-options"}`}>
               <MdCancel 
               className='cancelIcon' 
-              onClick={() => setSidebar(false)}/>
+                onClick={() => setSidebar(false)}/>
               <li className='navbar-list'>
                 <Link 
                   className={`navbar-link hover:rounded-[999px] hover:bg-theme 
@@ -85,8 +85,8 @@ const Navbar = () => {
             </ul>
           ) : (
             <FaBars
-              className={`${sidebar === false ? "barIcon" : "hidden"} block md:hidden lg:hidden`}
-              onClick={() => setSidebar(true)}
+              className={`${sidebar === false ? "barIcon" : "hidden"} block md:hidden lg:hidden`} 
+                onClick={() => { console.log("Clicked"); setSidebar(true)}}
             />
           )
         }

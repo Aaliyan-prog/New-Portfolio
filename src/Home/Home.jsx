@@ -1,14 +1,14 @@
 import Navbar from '../Components/Navbar/Navbar'
 import Hero from './Hero'
 import Project from '../Project/Project'
-import { navbarContext } from '../Context/NavContext';
+import { NavbarContext } from '../Context/NavContext.jsx';
 import { useContext, useEffect, useRef, useState } from 'react';
 import Resume from '../Resume/Resume';
 import Contact from '../Contact/Contact';
 
 
 const Home = () => {
-  const { active, HandleActive } = useContext(navbarContext);
+  const { active, HandleActive } = useContext(NavbarContext);
 
   const heroRef = useRef(null);
   const projectRef = useRef(null);

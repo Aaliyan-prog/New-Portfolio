@@ -1,9 +1,10 @@
 import React, { createContext, useState } from 'react'
 
-export const navbarContext = createContext();
+export const NavbarContext = createContext();
 
 const NavProvider = ({ children }) => {
   const [sidebar, setSidebar] = useState(false);
+  
   const [active, setActive] = useState("home");
   
   const HandleActive = (currentOption) => {
@@ -22,7 +23,7 @@ const NavProvider = ({ children }) => {
   };
 
   return (
-    <navbarContext.Provider value={{ active, HandleActive, sidebar, setSidebar }}>{children}</navbarContext.Provider>
+    <NavbarContext.Provider value={{ active, HandleActive, sidebar, setSidebar }}>{children}</NavbarContext.Provider>
   )
 }
 

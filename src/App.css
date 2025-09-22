@@ -6,6 +6,7 @@
 
 @theme{
   --color-theme: #9e0bdd;
+  --color-background: #1c1c22;
   --color-try: #F5E6FF;
   --color-theme-name: var(--color-theme);
   --color-light: #1E1E2E;
@@ -26,8 +27,8 @@
   @apply flex sm:flex-col sm:justify-start sm:items-center sm:w-[60%] sm:h-[100vh] sm:p-[30px] sm:absolute sm:top-0 sm:right-0 sm:bg-[var(--color-try)] sm:translate-x-0 sm:transition-transform duration-1000 xs:flex-col xs:justify-start xs:items-center xs:w-[60%] xs:h-[100vh] xs:p-[30px] xs:absolute xs:top-0 xs:right-0 xs:bg-[var(--color-try)] xs:translate-x-0 xs:transition-transform xs:duration-1000 xss:flex-col xss:justify-start xss:items-center xss:w-[90%] xss:h-[100vh] xss:p-[20px] xss:absolute xss:top-0 xss:right-0 xss:bg-[var(--color-try)] xss:translate-x-0 xss:transition-transform xss:duration-1000
 }
 
-.nega-margin{
-  @apply mt-[-80px]
+.navbar{
+  @apply fixed top-0 left-0 w-full z-50
 }
 
 .project-container{

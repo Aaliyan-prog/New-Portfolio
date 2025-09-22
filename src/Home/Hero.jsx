@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
-    <div className='w-[100%] h-[100vh] flex justify-center items-center nega-margin'>
+    <div className='w-[100%] h-[100vh] flex justify-center items-center'>
       <div className="flex flex-col justify-center items-center w-[100%] h-[100%]">
         <h3 className='font-lobster text-[16px] text-white font-bold margin src-hero-title'>Full stack developer || I love bringing ideas to life</h3>
         <h1 className='font-[Righteous] font-bold margin src-hero-heading'>Hello, <span className='text-theme'>I'm Aaliyan</span></h1>
