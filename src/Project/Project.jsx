@@ -49,7 +49,7 @@ const Project = () => {
             <li className="project-navbar-options" onClick={() => setProjectCategory("copywriting")}>copywriting</li>
             <li className="project-navbar-options" onClick={() => setProjectCategory("SEO")}>SEO</li>
             <li className="project-navbar-options" onClick={() => setProjectCategory("Author")}>Author</li>
-            <li className="project-navbar-options" onClick={() => setProjectCategory("Graphic design")}>graphic designer</li>
+            <li className="project-navbar-options" onClick={() => setProjectCategory("Graphic design")}>graphic design</li>
           </ul>
         </div>
         <div className="w-[100%] flex justify-between items-center flex-wrap src-xss-project">

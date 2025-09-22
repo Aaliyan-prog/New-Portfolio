@@ -5,11 +5,11 @@ const Hero = () => {
     <div className='w-[100%] h-[100vh] flex justify-center items-center'>
       <div className="flex flex-col justify-center items-center w-[600px] h-[100%]">
         <h3 className='font-lobster text-[16px] text-white font-bold margin src-hero-title'>Full stack developer || I love bringing ideas to life</h3>
-        <h1 className='text-6xl font-[Righteous] font-bold margin src-hero-heading'>Hello, <span className='text-theme'>I'm Aaliyan</span></h1>
+        <h1 className='font-[Righteous] font-bold margin src-hero-heading'>Hello, <span className='text-theme'>I'm Aaliyan</span></h1>
         <p className='w-[600px] text-center text-[14px] font-[libertinus] font-bold margin-1 src-hero-desc'>I am a fullStack Web developer with over 3 years of experience in crafting responsive, scalable, clean and stunning looking websites, E-commerce, Web Applications & more. </p>
-        <div className="w-[350px] flex flex-row justify-between items-center">
-          <button className='w-[140px] h-[45px] bg-theme text-white text-[13px] font-bold font-[Righteous] rounded-[10px]'>Project</button>
-          <button className="w-[140px] h-[45px] bg-theme text-white text-[13px] font-bold font-[Righteous] rounded-[10px]">Resume</button>
+        <div className="w-[350px] flex flex-row justify-between items-center src-button-w">
+          <button className='w-[140px] h-[45px] bg-theme text-white text-[13px] font-bold font-[Righteous] rounded-[10px] button'>Project</button>
+          <button className="w-[140px] h-[45px] bg-theme text-white text-[13px] font-bold font-[Righteous] rounded-[10px] button">Resume</button>
         </div>
       </div>
       <div class="custom-shape-divider-bottom-1756571235">

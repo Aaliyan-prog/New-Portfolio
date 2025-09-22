@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 /* :root {
-  --color-theme: #9e0bdd;
-} */
+  /* --color-theme: #9e0bdd;
+} */ 
 
 @theme{
   --color-theme: #9e0bdd;
@@ -144,7 +144,7 @@
 }
 
 .Explore-All{
-  @apply lg:text-[15px] md:text-[15px] sm:text-[14px] xs:text-[12px] xss:text-[10px]
+  @apply lg:text-[15px] md:text-[15px] sm:text-[14px] xs:text-[12px] xss:text-[12px]
 }
 
 .my-heading{
@@ -176,7 +176,7 @@
 }
 
 .project-button-margin{
-  @apply lg:mt-[15px] md:mt-[15px] mb-0 sm:mt-3 xs:mt-1 xs:mt-1
+  @apply lg:mt-[15px] md:mt-[15px] mb-0 sm:mt-3 xs:mt-1 xss:mt-3
 }
 
 .svg-margin{
@@ -232,11 +232,11 @@
 }
 
 .src-form{
-  @apply lg:w-[40%] md:w-[70%] md:mb-5 sm:w-[90%] sm:mb-5 xs:w-[80%] xs:mb-5 xss:w-[80%] xss:mb-5
+  @apply lg:w-[40%] md:w-[70%] md:mb-5 sm:w-[90%] sm:mb-5 xs:w-[90%] xs:mb-5 xss:w-[90%] xss:mb-5
 }
 
 .src-contact-content{
-  @apply lg:w-[40%] md:w-[70%] md:mb-8 sm:w-[80%] sm:mb-8 xs:w-[80%] xs:mb-8 xss:w-[80%] xss:mb-8
+  @apply lg:w-[40%] md:w-[70%] md:mb-8 sm:w-[80%] sm:mb-8 xs:w-[80%] xs:mb-8 xss:w-[90%] xss:mb-8
 }
 
 .src-hero-title{
@@ -244,11 +244,24 @@
 }
 
 .src-hero-heading{
-  @apply lg:text-6xl md:text-[50px] sm:text-[50px] xs:text-[50px] xss:text-[45px]
+  @apply  lg:text-[50px] md:text-[50px] sm:text-[50px] xs:text-[50px] xss:text-[35px]
 }
 
 .src-hero-desc{
-  @apply lg:w-[600px] md:w-[600px] sm:w-[500px] xs:w-[480px] xss:w-[350px]
+  @apply lg:w-[600px] md:w-[600px] sm:w-[500px] xs:w-[480px] xss:w-[300px]
+}
+
+.src-button-w{
+  @apply lg:w-[350px] md:w-[350px] sm:w-[350px] xs:w-[300px] xss:w-[300px]
+}
+
+.button{
+  @apply lg:w-[140px] md:w-[140px] sm:w-[140px] xs:w-[120px] xss:w-[120px]
+}
+
+.src-contact-info, 
+.src-contact-info-span{
+  @apply lg:text-[14px] md:text-[14px] sm:text-[14px] xs:text-[12px] xss:text-[8px]
 }
 
 .skill-margin-top {
