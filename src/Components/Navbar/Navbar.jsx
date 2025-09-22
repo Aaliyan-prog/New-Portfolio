@@ -6,8 +6,7 @@ import { navbarContext } from '../../Context/NavContext';
 // import "../assets/Responsive/midPhoneResponsive.css"
 
 const Navbar = () => {
-  const [sidebar, setSidebar] = useState(false);
-  const { active, HandleActive } = useContext(navbarContext);
+  const { active, HandleActive, sidebar, setSidebar } = useContext(navbarContext);
 
 
   return (
