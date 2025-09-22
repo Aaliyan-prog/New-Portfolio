@@ -52,7 +52,7 @@ const Project = () => {
             <li className="project-navbar-options" onClick={() => setProjectCategory("Graphic design")}>graphic designer</li>
           </ul>
         </div>
-        <div className="w-[100%] flex justify-between items-center flex-wrap">
+        <div className="w-[100%] flex justify-between items-center flex-wrap src-xss-project">
           {displayProject.slice(0, 3).map((items) => (
               <div className="w-[300px] min-h-[300px] border border-white flex flex-col justify-start items-center rounded-[10px] shadow-box src-project margin-bottom-1">
                 <div className="w-[100%] h-[120px] bg-light flex justify-center items-center rounded-tr-[10px] rounded-tl-[10px] border-b border-b-white src-project-title-container">
