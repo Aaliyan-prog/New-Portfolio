@@ -67,7 +67,7 @@
 }
 
 .margin-2{
-  @apply mb-[50px]
+  @apply mb-[50px] md:mb-[40px] sm:mb-[30px] xs:mb-[30px] xss:mb-[20px]
 }
 
 .margin-bottom{
@@ -140,7 +140,7 @@
 }
 
 .project-navbar-options{
-  @apply w-[22%] h-[40px] flex justify-center items-center lg:text-[16px] md:text-[15px] font-bold font-libertinus text-white border border-white rounded-[10px] cursor-pointer transition duration-1000 sm:text-[13px] xs:text-[11px] xss:h-[30px] xss:text-[10px]
+  @apply w-[22%] lg:h-[40px] flex justify-center items-center lg:text-[16px] md:text-[15px] font-bold font-libertinus text-white border border-white rounded-[10px] cursor-pointer transition duration-1000 sm:text-[13px] xs:text-[11px] md:h-[40px] sm:h-[40px] xs:h-[35px] xss:h-[30px] xss:text-[9px]
 }
 
 .project-navbar-options:hover{
@@ -280,12 +280,20 @@
   @apply lg:w-[280px] md:w-[300px] sm:w-[270px] xs:w-[300px] xss:w-[300px] mr-2
 }
 
+.src-pro-heading{
+  @apply lg:text-[38px] md:text-[38px] sm:text-[30px] xs:text-[25px] xss:text-[25px]
+}
+
 .email-margin{
   @apply mr-4
 }
 
 .email-margin-top{
-  @apply mt-7
+  @apply mt-7 xs:mt-5 xss:mt-4
+}
+
+.src-book{
+  @apply lg:text-[40px] md:text-[40px] sm:text-[40px] xs:text-[30px] xss:text-[30px]
 }
 
 .email-writing{
@@ -301,11 +309,31 @@
 }
 
 .books-title{
-  @apply lg:text-[28px] md:text-[40px] sm:text-[30px] xs:text-[25px] xss:text-[25px]
+  @apply lg:text-[28px] md:text-[40px] sm:text-[30px] xs:text-[30px] xss:text-[24px] text-center
+}
+
+.book-content-container{
+  @apply lg:w-[80%] md:w-[80%] sm:w-[80%] xs:w-[90%] xss:w-[90%]
+}
+
+.src-book-desc{
+  @apply lg:w-[60%] md:w-[60%] sm:w-[60%] xs:w-[80%] xss:w-[80%]
+}
+
+.src-book-desc-page{
+  @apply lg:w-[60%] md:w-[60%] sm:w-[60%] xs:w-[70%] xss:w-[90%]
 }
 
 .design{
-  @apply xl:columns-6 lg:columns-5 md:columns-4 sm:columns-2 xs:columns-1 xss:columns-1
+  @apply xl:columns-6 lg:columns-5 md:columns-4 sm:columns-3 xs:columns-2 xss:columns-2
+}
+
+.src-book-val{
+  @apply lg:text-[16px] md:text-[14px] sm:text-[14px] xs:text-[12px] xss:text-[12px]
+}
+
+.src-book-name{
+  @apply lg:text-[16px] md:text-[14px] sm:text-[14px] xs:text-[14px] text-[14px]
 }
 
 /* .resume-margin:hover{
