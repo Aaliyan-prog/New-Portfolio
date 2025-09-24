@@ -249,15 +249,15 @@
 }
 
 .src-hero-heading{
-  @apply  lg:text-[50px] md:text-[50px] sm:text-[50px] xs:text-[50px] xss:text-[35px]
+  @apply  lg:text-[50px] md:text-[50px] sm:text-[50px] xs:text-[50px] xss:text-[30px]
 }
 
 .src-hero-desc{
-  @apply lg:w-[600px] md:w-[600px] sm:w-[500px] xs:w-[480px] xss:w-[300px]
+  @apply lg:w-[600px] md:w-[600px] sm:w-[500px] xs:w-[480px] xss:w-[250px] lg:text-[14px] md:text-[14px] sm:text-[13px] xs:text-[12px] xss:text-[10px]
 }
 
 .src-button-w{
-  @apply lg:w-[350px] md:w-[350px] sm:w-[350px] xs:w-[300px] xss:w-[300px]
+  @apply lg:w-[350px] md:w-[350px] sm:w-[350px] xs:w-[300px] xss:w-[250px]
 }
 
 .button{
