@@ -43,11 +43,11 @@ const Contact = () => {
             <hr className='text-white'/>
           </div>
           <div className='w-[100%] flex flex-row justify-between skill-margin-top'>
-            <div className="w-[47%] flex flex-col padding-1">
+            <div className="w-[50%] flex flex-col padding-1">
               <label htmlFor="" className='text-[12px] margin-input text-white font-libertinus font-bold'>Name</label>
               <input type="text" name='name' id='name' className="text-[12px] padding-1 border border-white text-white rounded-[10px]" placeholder='Enter Your Name' required/>
             </div>
-            <div className="w-[47%] flex flex-col padding-1">
+            <div className="w-[50%] flex flex-col padding-1">
               <label htmlFor="" className='text-[12px] margin-input text-white font-libertinus font-bold'>Phone</label>
               <input type="number" name="number" id="number" className="text-[12px] padding-1 border border-white text-white rounded-[10px]" placeholder='Enter Your Phone Number' required/>
             </div>

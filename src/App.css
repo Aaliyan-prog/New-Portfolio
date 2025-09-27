@@ -91,6 +91,10 @@
   @apply pl-5 pr-5
 }
 
+.src-padding{
+  @apply p-[5px]
+}
+
 .padding-1{
   @apply p-[10px]
 }
@@ -141,7 +145,7 @@
 }
 
 .project-navbar-options{
-  @apply w-[22%] lg:h-[40px] flex justify-center items-center lg:text-[16px] md:text-[15px] font-bold font-libertinus text-white border border-white rounded-[10px] cursor-pointer transition duration-1000 sm:text-[13px] xs:text-[11px] md:h-[40px] sm:h-[40px] xs:h-[35px] xss:h-[30px] xss:text-[9px]
+  @apply w-[24%] lg:h-[40px] flex justify-center items-center lg:text-[16px] md:text-[15px] font-bold font-libertinus text-white border border-white rounded-[10px] cursor-pointer transition duration-1000 sm:text-[13px] xs:text-[11px] md:h-[40px] sm:h-[40px] xs:h-[35px] xss:h-[30px] xss:text-[9px]
 }
 
 .project-navbar-options:hover{
@@ -149,15 +153,19 @@
 }
 
 .Explore-All{
-  @apply lg:text-[15px] md:text-[15px] sm:text-[14px] xs:text-[12px] xss:text-[12px]
+  @apply lg:text-[15px] md:text-[15px] sm:text-[14px] xs:text-[12px] xs:min-w-[80px] xss:min-w-[60px] xss:h-[35px] xss:text-[10px]
 }
 
 .my-heading{
-  @apply lg:text-[38px] md:text-[35px] sm:text-[30px] xs:text-[30px] xss:text-[25px]
+  @apply lg:text-[38px] md:text-[35px] sm:text-[30px] xs:text-[30px] xss:text-[23px]
 }
 
 .shadow-box:hover{
   @apply shadow-project transition duration-1000
+}
+
+.hero-btn{
+ @apply lg:h-[45px] md:h-[45px] sm:h-[45px] xs:h-[40px] xss:h-[40px]
 }
 
 /* .projects{
